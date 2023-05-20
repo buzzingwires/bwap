@@ -13,6 +13,7 @@ requires "nim >= 1.6.12"
 
 
 # Targets
+
 task build_examples, "Build examples":
   withDir "examples":
     exec "nim c bwap_example.nim"
